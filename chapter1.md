@@ -30,5 +30,9 @@ Elasticsearch 是一个近实时的搜索平台。这意味着从索引文档到
 
 在集群中可以定义无数个索引。
 
+### Type（类型【在6.0.0中已被废弃】）
+
+类型通常被用于在索引中的逻辑分类，这样你就可以在一个索引中保存不同类型的文档，例如用户类型，博客发布类型。在一个索引中不再允许创建多个类型，而且类型的概念也会在后续版本中被废弃。有关更多信息，请参见[删除映射类型](https://www.elastic.co/guide/en/elasticsearch/reference/current/removal-of-types.html)。
+
 
 
